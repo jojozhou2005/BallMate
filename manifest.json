@@ -1,0 +1,51 @@
+{
+  "name": "BallMate 球搭子",
+  "short_name": "BallMate",
+  "description": "Find football buddies, join matches & watch parties near you. 找球搭子，踢球看球一起来！",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0A192F",
+  "theme_color": "#00C853",
+  "orientation": "portrait",
+  "scope": "/",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "categories": ["sports", "social", "lifestyle"],
+  "shortcuts": [
+    {
+      "name": "Find Match 找比赛",
+      "short_name": "Find Match",
+      "description": "Browse nearby football matches",
+      "url": "/?screen=home&category=match",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Create Event 创建活动",
+      "short_name": "Create",
+      "description": "Host a new event",
+      "url": "/?screen=create",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
